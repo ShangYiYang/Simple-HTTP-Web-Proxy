@@ -1,0 +1,14 @@
+This simple proxy currently only handles the GET method. There is no logic to handle anything else.
+My implementation is currently ill organized. The majority of the logic is in the main method. It is
+possible to seperate the code out into methods for readability. 
+
+Strengths:
+
+Simple
+Fast
+
+Weaknesses:
+
+Only GET requests
+HTTP/1.0 does not keep a persistent connection
+Sites that auto redirect to https do not work
